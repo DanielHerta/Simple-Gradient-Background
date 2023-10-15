@@ -1,0 +1,65 @@
+body, html {
+	font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    height: 100%;
+	background: linear-gradient(to right, rgb(8, 8, 8) , rgb(241, 241, 236), rgb(24, 26, 25));
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 37vh;
+    flex-direction: column;
+}
+
+#bg {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    text-transform: uppercase;
+    display: block;
+    font-size: 92px;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    text-align: center;
+    position: absolute;
+    padding: 10px 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+h3 {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    color: #f1ebe5;
+    width: fit-content;
+    display: inline-block;
+}
+
+.container-currentcss {
+    width: fit-content;
+    height: fit-content;
+}
+
+#currentcss {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    text-transform: uppercase;
+    display: block;
+    font-size: 30px;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
